@@ -169,6 +169,7 @@ include(":extensions:data-plane-selector:store:sql:data-plane-instance-store-sql
 // modules for launchers, i.e. runnable compositions of the app ------------------------------------
 include(":launchers:data-plane-server")
 include(":launchers:dpf-selector")
+include(":launchers:t-selector")
 
 // extension points for a connector ----------------------------------------------------------------
 include(":spi:common:aggregate-service-spi")
